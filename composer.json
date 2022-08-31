@@ -1,5 +1,5 @@
 {
-    "name": "SirajCSE/laravel-safe-submit",
+    "name": "sirajcse/laravel-safe-submit",
     "description": "Preventing Duplicate Form  Submits  in laravel framework",
     "authors": [
         {
