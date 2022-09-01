@@ -15,7 +15,7 @@ class SafeSubmitServiceProvider extends ServiceProvider
     public function register()
     {
         Blade::directive('safesubmit', function ($expression) {
-            return "<?php echo '<input type=\"hidden\" name=\"' . app(SafeSubmit::class)->tokenKey() . '\" value=\"' . app(SafeSubmit::class)->token() . '\">'; ?>";
+            return "<?php echo '<input type=\"hidden\" name=\"' . app(\SirajCSE\LaravelSafeSubmit\SafeSubmit::class)->tokenKey() . '\" value=\"' . app(\SirajCSE\LaravelSafeSubmit\SafeSubmit::class)->token() . '\">'; ?>";
         });
     }
 
